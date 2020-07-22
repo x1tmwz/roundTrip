@@ -1,0 +1,75 @@
+{
+    "Header":{
+        "homepage":"דף הבית",
+        "packageTour":"חבילות נופש ˅",
+        "flight":"טיסות ˅",
+        "marganimTours":"טיולים מאורגנים ˅",
+        "contact":"צור קשר"
+    },
+    "JoinToClub":{
+        "joinToOurClub":"הצטרפו למעדון הלקוחות שלנו",
+        "fullName":"🖉 שם מלא",
+        "email":"✉ דואר אלקטרוני",
+        "sign":"הרשם"
+    },
+    "Footer":{
+        "FlightsAbroad":{
+            "title":"טיסות לחו''ל",
+            "options":["טיסות לברלין","טיסות לפריז","טיסות לכרתים","טיסות ללנדון","טיסות לפראג"]
+        },
+        "vacationFamilies":{
+            "title":"נופש משפחות",
+            "options":["טיסות לברלין","טיסות לפריז","טיסות לכרתים","טיסות ללנדון","טיסות לפראג"]
+        },
+        "vacationCouples":{
+            "title":"נופש זוגות",
+            "options":["טיסות לברלין","טיסות לפריז","טיסות לכרתים","טיסות ללנדון","טיסות לפראג"]
+            
+        },
+        "general":{
+            "title":"כללי",
+            "options":["שירות לקוחות","תנאים","עלינו","צור קשר"]
+        }
+
+    },
+    
+    "copyRight":"© 2018 כל הזכיות שמורות NASA",
+    "adItem":{
+        "return":"חזרה:",
+        "departure":"יציאה:",
+        "night":"לילה",
+        "nights":"לילות",
+        "room":"חדר",
+        "roomOnly":"חדר בלבד",
+        "rooms":"חדרים",
+        "moreInfoAboutHotel":"הצג חבילות נוספות למלון זה",
+        "averagePriceForPerosnInCoupleRoom":"מחיר ממוצע לאדם",
+        "moreDetails":"פרטים נוספים",
+        "copuleRoom":"חדר זוגי"
+    },
+    "numbers":["אפס","אחד","שני","שלושה","ארבעה","חמישה","שישה","שבעה","שמונה","תשעה","עשרה"],
+    "roomTypes":{
+        "doubleRoom":"חדר זוגי",
+        "classicRoom":"חדר קלאסי"
+    },
+    "filter":{
+        "hightToLow":"מחיר,מהגובה לנמוך",
+        "lowToHigh":"מחיר,מהנמוך לגבוה",
+        "mostPopular":"הכי פופלרי",
+        "sortBy":"מיין לפי:",
+        "date":"תאריך",
+        "cheapest":"הכי זול",
+        "mostWorthwhile":"הכי משתלם"
+    },
+    "advanceFilter":{
+        "advanceFilter":"סינון מתקדם",
+        "filteringResults":"סינון תוצאות"
+    },
+    "priceRange":"טווח מחיר לאדם",
+    "textFiler":"חיפוש לפי שם מלון   🔍",
+    "searchResults":"מספר תוצאות חיפוש:"
+    
+        
+        
+    
+}

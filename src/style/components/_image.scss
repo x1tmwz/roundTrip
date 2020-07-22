@@ -1,0 +1,36 @@
+.image-icon{
+    width: 16rem;
+    height: 8rem;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 3rem;
+        height: 1.5rem;
+    }
+}
+.image-icon-big{
+    width: 20rem;
+    height: 10rem;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 5rem;
+        height: 2.5rem;
+    }
+}
+.image-icon-small{
+    width: 5rem;
+    height: 5rem;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+.image-icon-extra-small{
+    width: 2rem;
+    height: 2rem;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+}
+
+.imageMargin{
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    font-size: $font-xl;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $royal-blue;
+    padding-top: $s-s;
+    padding-bottom: $s-m;
+    padding-right: $s-xl;
+    padding-left: $s-xl;
+    font-weight: 500;
+    
+    @media only screen and (max-width: $ipad-pro-breakpoint) {
+        width: 160rem;
+    }
+    
+  
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 100%;
+        font-size:$font-s;
+        padding: $s-s;
+    }
+}
+.header-link{
+    text-decoration: none;
+    color:$off-white;
+    
+}
+.header-link-active{
+    text-decoration: none;
+    background-color: white;
+    color: $royal-blue;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.header-link-BlindActive{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}

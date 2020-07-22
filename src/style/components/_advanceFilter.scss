@@ -1,0 +1,22 @@
+.advanceFilter-container{
+    display: flex;
+    flex-direction: column;
+    background-color: $royal-blue;
+    margin: 1rem;
+    border-radius: 3px;
+    color: white;
+    width: 90%;
+    font-size: $font-xl;
+    padding-left: $s-s;
+    padding-right: $s-s;
+    min-height: 100vh;
+    
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: $font-l;
+        min-height: 5vh;
+        width: 90%;
+        
+    }
+}
+
+

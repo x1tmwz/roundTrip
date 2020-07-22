@@ -1,0 +1,23 @@
+$star-size:3rem;
+
+
+.fullStar{
+    color: $full-star;
+    font-size: $star-size;
+    margin: 0;
+    padding: 0;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: 1.5rem;
+    }
+  
+}
+.emptyStar{
+    color: $empty-star;
+    font-size: $star-size;
+    margin: 0;
+    padding: 0;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: 1.5rem;
+    }
+  
+}

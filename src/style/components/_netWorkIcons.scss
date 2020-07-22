@@ -1,0 +1,26 @@
+.netWorkIconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark-grey-super;
+    padding: $s-s;
+    padding-right: $s-xxl;
+    padding-left: $s-xxl;
+    @media only screen and (max-width: $ipad-pro-breakpoint) {
+        width: 160rem;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 100%;
+        font-size:$font-m;
+        padding: $s-s;
+    }
+   
+    
+}
+.netWorkIconContainer p{
+    font-size: $font-l;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: $font-m;
+    }
+}

@@ -1,0 +1,137 @@
+//ad settings
+$ad-height:20rem;
+$ad-info-width:55rem;
+$ad-price-width:15rem;
+//ad on phone settings
+$ad-height-p:12rem;
+$ad-info-width-p:20rem;
+$ad-price-width-p:7rem;
+//ad on tablet settings
+$ad-height-t:20rem;
+$ad-info-width-t:40rem;
+$ad-price-width-t:14rem;
+
+
+
+.adItem-Container{
+    display: flex;
+    flex-direction: row;
+    margin-right: $s-m;
+    margin-top: $s-l;
+    margin-bottom: $s-s;
+    font-size: $font-xl;
+    align-items: center;
+   
+    @media only screen and (max-width: $desktop-breakpoint) {
+        margin-left: $s-s;
+       
+    }
+
+}
+.adItem-hotelInfoContainer{
+    @extend .flexResponsiveRowToColumn;
+    justify-content: space-between;
+    border: 0.1px solid black;
+    border-radius: 3px;
+    padding-left: $s-s;
+    padding-right: $s-s;
+    margin-left: $s-s;
+    margin-right: $s-s;
+    width: $ad-info-width;
+    height: $ad-height;
+   
+    
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size:$font-m;
+        width: $ad-info-width-p;
+        height: $ad-height-p;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+   
+
+}
+
+.adItem-hotelInfoContainer button{
+    margin-top: 15rem;
+    font-size: $font-xl;
+    width: $l-input;
+    height: $m-input-h;
+   
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width:100%;
+        height: $s-input-h;
+        margin-top: 0;
+        font-size: $font-m;
+    }
+}
+.adItem-hotelInfoContainer h3{
+    margin-top: $s-s;
+    margin-bottom:0;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        margin-top: 0.5rem;
+    }
+}
+
+.adItem-priceContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: $ad-height;
+    width: $ad-price-width;
+    border: 0.1px solid black;
+    border-radius: 3px;
+ 
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: $font-s;
+        height: $ad-height-p;
+        width:$ad-price-width-p;
+    }
+    
+}
+.adItem-priceContainer-textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+.adItem-priceContainer-textContainer h1{
+    margin-bottom: 0;
+    
+}
+.adItem-priceContainer-textContainer span{
+    font-size: 1.75rem;
+   
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: 0.75rem;
+    }
+}
+.adItem-priceContainer button{
+    margin-top: 4.5rem;
+    font-size: $font-xl;
+    width: $s-input+2rem;
+    height: $m-input-h;
+
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 5rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+        height: $s-input-h+1rem;
+
+    }
+    
+}
+.image-regular{
+    width: $ad-price-width;
+    height: $ad-height;
+    border-radius: 3px;
+
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: $ad-price-width-p;
+        height: $ad-height-p;
+    }
+}

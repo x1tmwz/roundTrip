@@ -1,0 +1,45 @@
+
+.filter-Container{
+    display: flex;
+    flex-direction: row;
+    margin-top: $s-s;
+    margin-right: $s-m;
+    margin-left: $s-xl;
+    font-size: $font-l;
+    align-items: center;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: $font-s;
+        margin-right: $s-s;
+        margin-left: $s-s;
+    }
+}
+.filter-Container select{
+   direction: rtl;
+   width: $l-input;
+   height: $m-input-h;
+   font-size: $font-xl;
+   border: none;
+
+   @media only screen and (max-width: $desktop-breakpoint) {
+    font-size: $font-m;
+    width: $s-input;
+    height: $s-input-h;
+}
+
+}
+.filter-Container button{
+    width: $m-input;
+    height: $m-input-h;
+    font-size: $font-xl;
+
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: $font-s+0.3rem;
+        width: $s-input;
+        height: $s-input-h;
+    }
+}
+.filter-Container button:hover{
+    @extend .blueRoyalButton
+}

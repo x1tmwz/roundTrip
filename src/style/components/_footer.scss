@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: $s-xl;
+    padding-left: $s-xl;
+    padding-top: $s-m;
+    padding-bottom: $s-xl;
+    background-color: $light-grey;
+    background-color: $dark-grey;
+    color: $off-white;
+    @media only screen and (max-width: $ipad-pro-breakpoint) {
+        width: 160rem;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) {
+        width: 100%;
+        font-size: $font-m;
+        padding: $s-s;
+    }
+}
+.footer-insideContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: $s-xxl;
+    padding-left: $s-xxl;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.footer-imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

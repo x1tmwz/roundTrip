@@ -1,0 +1,24 @@
+.ml-s{
+    margin-left: $s-s;
+    @media only screen and (max-width: $ipad-pro-breakpoint) {
+        margin-left: 0.5rem;
+    }
+
+}
+.ml-l{
+    margin-left: $s-l;
+
+}
+.ml-xl{
+    margin-left: $s-xl;
+
+}
+.ml-xxxl{
+    margin-left: $s-xxl + $s-m;
+}
+.mr-s{
+    margin-right: $s-s;
+}
+.mr-m{
+    margin-right: $s-m;
+}
