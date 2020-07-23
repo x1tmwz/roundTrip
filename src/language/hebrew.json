@@ -43,7 +43,8 @@
         "roomOnly":"חדר בלבד",
         "rooms":"חדרים",
         "moreInfoAboutHotel":"הצג חבילות נוספות למלון זה",
-        "averagePriceForPerosnInCoupleRoom":"מחיר ממוצע לאדם",
+        "averagePriceForPerosnInCoupleRoom":"מחיר ממוצע",
+        "forPerson":"לאדם",
         "moreDetails":"פרטים נוספים",
         "copuleRoom":"חדר זוגי"
     },

@@ -16,3 +16,14 @@
 
     }
 }
+.text-m{
+    font-size: $font-xl;
+    @media only screen and (max-width: $desktop-breakpoint) {
+        font-size:1px;
+        display: flex;
+        align-content: center;
+      
+      
+
+    }
+}

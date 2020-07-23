@@ -37,6 +37,7 @@ const AdItem = ({
                 <div className="adItem-priceContainer-textContainer lightRoyalBlueText">
                     <h1>{"$" + new Intl.NumberFormat().format(price)}</h1>
                     <span>{language.adItem.averagePriceForPerosnInCoupleRoom}</span>
+                    <span>{language.adItem.forPerson}</span>
                     <span>{language.roomTypes[roomType]}</span>
                 </div>
                 <button className="redButton">{language.adItem.moreDetails}</button>

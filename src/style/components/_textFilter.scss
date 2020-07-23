@@ -1,7 +1,11 @@
-.textFilter{
+.textFilter {
     margin-top: $s-m;
     margin-bottom: $s-s;
     width: $l-input;
     height: $m-input-h;
     font-size: $font-xl;
+    @media only screen and (max-width: $small-phone-breakpoint) {
+        width: $m-input;
+        height: $m-input-h;
+    }
 }
