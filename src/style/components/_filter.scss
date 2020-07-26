@@ -3,24 +3,30 @@
     display: flex;
     flex-direction: row;
     margin-top: $s-s;
-    margin-right: $s-m;
-    margin-left: $s-xl;
-    font-size: $font-l;
+    margin-right:1%;
+    font-size: $font-m;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    @media only screen and (max-width: 1400px) {
+        font-size: $font-m;
+    }
 
     @media only screen and (max-width: $desktop-breakpoint) {
         font-size: $font-s;
         margin-right: $s-s;
-        margin-left: $s-s;
+        // margin-left: $s-s;
     }
 }
 .filter-Container select{
    direction: rtl;
-   width: $l-input;
-   height: $m-input-h;
+   width: 35%;
+   height: 20%;
    font-size: $font-xl;
    border: none;
+   @media only screen and (max-width: 1400px) {
+    font-size: $font-xl;
+   }
+
 
    @media only screen and (max-width: $desktop-breakpoint) {
     font-size: $font-m;
@@ -34,10 +40,12 @@
     height: $m-input-h;
     font-size: $font-xl;
 
-    @media only screen and (max-width: $desktop-breakpoint) {
-        font-size: $font-s+0.3rem;
-        width: $s-input;
-        height: $s-input-h;
+    @media only screen and (max-width: 1400px) {
+        width: 20%;
+        height:40%;
+    }
+    @media only screen and (max-width: 800px) {
+        font-size: $font-m;
     }
 }
 .filter-Container button:hover{

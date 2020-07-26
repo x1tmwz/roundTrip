@@ -1,138 +1,163 @@
-//ad settings
-$ad-height:20rem;
-$ad-info-width:55rem;
-$ad-price-width:15rem;
-//ad on phone settings
-$ad-height-p:12rem;
-$ad-info-width-p:20rem;
-$ad-price-width-p:7rem;
-//ad on tablet settings
-$ad-height-t:20rem;
-$ad-info-width-t:40rem;
-$ad-price-width-t:14rem;
-
-
-
 .adItem-Container{
     display: flex;
     flex-direction: row;
-    margin-right: $s-m;
-    margin-top: $s-l;
-    margin-bottom: $s-s;
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-size: $font-xl;
-    align-items: center;
-   
-    @media only screen and (max-width: $desktop-breakpoint) {
-        margin-left: $s-s;
-       
+    justify-content: space-between;
+    width: 100%;
+    .adItem-hotelInfoContainer{
+        width: 55%;
     }
+    .adItem-priceContainer{
+        width: 20%;
+    }
+    .adItem-imageContainer{
+        width: 20%;
+    }
+    @media only screen and (max-width: 1400px) {
+        padding-left: 1%;
+        padding-right: 1%;
+        .adItem-hotelInfoContainer{
+            width: 55%;
+        }
+        .adItem-priceContainer{
+            width: 25%;
+        }
+        .adItem-imageContainer{
+            width: 20%;
+        }
+    }
+ 
+    
+ 
 
 }
 .adItem-hotelInfoContainer{
-    @extend .flexResponsiveRowToColumn;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border: 0.1px solid black;
     border-radius: 3px;
-    padding-left: $s-s;
-    padding-right: $s-s;
-    margin-left: $s-s;
-    margin-right: $s-s;
-    width: $ad-info-width;
-    height: $ad-height;
-   
-    
-    @media only screen and (max-width: $desktop-breakpoint) {
-        font-size:$font-m;
-        width: $ad-info-width-p;
-        height: $ad-height-p;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 60%;
+    height: 100%;
+    font-size:$font-xl;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+
+    @media only screen and (max-width: 1400px) {
+        margin-left: 1%;
+        margin-right: 1%;
     }
+    @media only screen and (max-width: 800px) {
+        font-size:$font-l;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: $font-m;
+    }
+
+
    
 
 }
 
 .adItem-hotelInfoContainer button{
-    margin-top: 15rem;
     font-size: $font-xl;
-    width: $l-input;
-    height: $m-input-h;
-   
-    @media only screen and (max-width: $desktop-breakpoint) {
+    width: 80%;
+    height: 3rem;
+    margin-top: 4%;
+    
+    
+    @media only screen and (max-width: 1400px) {
         width:100%;
-        height: $s-input-h;
-        margin-top: 0;
+    }
+    @media only screen and (max-width: 800px) {
         font-size: $font-m;
     }
-}
-.adItem-hotelInfoContainer h3{
-    margin-top: $s-s;
-    margin-bottom:0;
-    @media only screen and (max-width: $desktop-breakpoint) {
-        margin-top: 0.5rem;
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: $font-m;
     }
+   
+  
 }
+
 
 .adItem-priceContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: $ad-height;
-    width: $ad-price-width;
+    justify-content: flex-start;
+    height:100%;
+    width: 20%;
     border: 0.1px solid black;
     border-radius: 3px;
- 
-    @media only screen and (max-width: $desktop-breakpoint) {
-        font-size: $font-s;
-        height: $ad-height-p;
-        width:$ad-price-width-p;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        // padding-bottom: 5px;
+        
     }
-    
+ 
 }
 .adItem-priceContainer-textContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    // margin-bottom: 40%;
    
-    padding-top: 1rem;
+    @media only screen and (max-width: 800px) {
+        // margin-bottom: 20%;
+        font-size: $font-l;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: $font-m;
+        // margin-bottom:9%;
+        
+    }
 
 }
 .adItem-priceContainer-textContainer h1{
-    margin-bottom: 0;
-    
+    margin-bottom: 0; 
 }
 .adItem-priceContainer-textContainer span{
-    font-size: 1.75rem;
+    font-size: $font-xl;
     align-self:center;
-    @media only screen and (max-width: $desktop-breakpoint) {
-        font-size: 0.75rem;
+    @media only screen and (max-width: 800px) {
+        font-size: $font-l;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: $font-m;
+        
     }
 }
 .adItem-priceContainer button{
-    margin-top: 2rem;
     font-size: $font-xl;
-    width: $s-input+2rem;
-    height: $m-input-h;
-
-    @media only screen and (max-width: $desktop-breakpoint) {
-        width: 4rem;
-        margin-top: 2rem;
-        font-size: 1rem;
-        height: $s-input-h+1rem;
-
+    width: 80%;
+    height: 3rem;
+    margin-top: 21%;
+    @media only screen and (max-width: 800px) {
+        margin-top: 26%;
+        font-size: $font-m;
     }
-    
-}
-.image-regular{
-    width: $ad-price-width;
-    height: $ad-height;
-    border-radius: 3px;
-
     @media only screen and (max-width: $desktop-breakpoint) {
-        width: $ad-price-width-p;
-        height: $ad-height-p;
+        margin-top: 20%;
+        font-size: $font-m;
+    }
+    @media only screen and (max-width: 300px) {
+        font-size: $font-s;
+    }
+   
+    
+
+}
+.adItem-imageContainer{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
     }
 }

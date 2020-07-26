@@ -12,7 +12,7 @@ const JoinToClub = () => {
             <div className="joinToClubContainer-insideContainer">
                 <input type="text" name="fullname" placeholder={language.JoinToClub.fullName} />
                 <input type="text" name="email" placeholder={language.JoinToClub.email} className="joinToClub-marginItems" />
-                <button className="redButton joinToClub-marginItems">{language.JoinToClub.sign}</button>
+                <button className="redButton ">{language.JoinToClub.sign}</button>
             </div>
         </form>
     );

@@ -14,27 +14,22 @@ import Footer from '../components/footer/Footer';
 
 const AppRouter = () => {
     return (
-        <div className="allContainer">
-            <BrowserRouter>
-                <Header />
-                <div className="content-container">
-                    <Switch>
-                        <Route path='/' component={HomePage} exact={true} />
-                        <Route path='/marganimtours' component={MarganimToursPage} />
-                        <Route path='/packagetour' component={PackageTourPage} />
-                        <Route path='/flight' component={FlightPage} />
-                        <Route path='/contact' component={ContactPage} />
-                        <Route path='*' component={NotFoundPage} />
-                    </Switch>
-                </div>
-                <JoinToClub />
-                <Footer />
-                <NetWorkIcons />
-            </BrowserRouter>
-
-
-        </div>
-
+        <BrowserRouter>
+            <Header />
+            <div className="appRouterContainer">
+            <Switch>
+                <Route path='/' component={HomePage} exact={true} />
+                <Route path='/marganimtours' component={MarganimToursPage} />
+                <Route path='/packagetour' component={PackageTourPage} />
+                <Route path='/flight' component={FlightPage} />
+                <Route path='/contact' component={ContactPage} />
+                <Route path='*' component={NotFoundPage} />
+            </Switch>
+            </div>
+            <JoinToClub />
+            <Footer />
+            <NetWorkIcons />
+        </BrowserRouter>
     );
 
 }

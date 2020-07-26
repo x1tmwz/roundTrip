@@ -1,8 +1,6 @@
 .footer {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
     padding-right: $s-xl;
     padding-left: $s-xl;
     padding-top: $s-m;
@@ -10,14 +8,13 @@
     background-color: $light-grey;
     background-color: $dark-grey;
     color: $off-white;
-    @media only screen and (max-width: $ipad-pro-breakpoint) {
-        width: 160rem;
+    width: 100%;
+    @media only screen and (max-width: 768px) {
         padding-right: 0;
         padding-left: 0;
         margin: 0;
     }
     @media only screen and (max-width: $desktop-breakpoint) {
-        width: 100%;
         font-size: $font-m;
         padding: $s-s;
     }
@@ -25,9 +22,8 @@
 .footer-insideContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: $s-xxl;
-    padding-left: $s-xxl;
+    justify-content: space-evenly;
+    
     @media only screen and (max-width: $desktop-breakpoint) {
         font-size: 1rem;
         padding-right: 0;

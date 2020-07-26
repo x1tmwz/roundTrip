@@ -17,10 +17,10 @@ const PackageTourPage = ({ filterAds, startSetAds }) => {
         }
         fetchData();
     }, [startSetAds])
-    
+
 
     return (
-        <div className="flexResponsiveRowToColumn">
+        <div className="content-container">
             <AdvanceFilter />
             <div>
                 <Filter />

@@ -38,7 +38,7 @@ const AdvanceFilter = (props) => {
 
     useEffect(() => {
         const handleResize =()=> {
-            if (window.innerWidth <= 760) {
+            if (window.innerWidth <= 700) {
                 setIsMobile(true)
             } else
                 setIsMobile(false)

@@ -36,10 +36,13 @@ $m-input-h:4rem;
 $l-input-h:6rem;
 
 //regular phones
-$desktop-breakpoint: 40rem;
+$desktop-breakpoint: 700px;
 //very small phone
 $small-phone-breakpoint: 20rem;
 //ipad size
 $ipad-breakpoint: 60rem;
 //ipad-pro size
-$ipad-pro-breakpoint: 70rem;
+$ipad-pro-breakpoint: 1024px;
+//laptop-size
+$laptop-min-breakpoint:1125px;
+$laptop-max-width:1600px;

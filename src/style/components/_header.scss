@@ -1,46 +1,38 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
     font-size: $font-xl;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: $royal-blue;
     padding-top: $s-s;
     padding-bottom: $s-m;
-    padding-right: $s-xl;
-    padding-left: $s-xl;
     font-weight: 500;
+    width: 100%;
     
-    @media only screen and (max-width: $ipad-pro-breakpoint) {
-        width: 160rem;
-    }
     
-  
     @media only screen and (max-width: $desktop-breakpoint) {
-        width: 100%;
-        font-size:$font-s+0.4rem;
+        font-size: $font-s + 0.4rem;
         padding: 0.75rem;
         padding-left: 0;
         padding-right: 0;
     }
     @media only screen and (max-width: $small-phone-breakpoint) {
-        font-size:$font-s;
+        font-size: $font-s;
     }
-  
 }
-.header-link{
+.header-link {
     text-decoration: none;
-    color:$off-white;
-    
+    color: $off-white;
 }
-.header-link-active{
+.header-link-active {
     text-decoration: none;
     background-color: white;
     color: $royal-blue;
     border-radius: 0.5rem;
     padding: 0.5rem;
 }
-.header-link-BlindActive{
+.header-link-BlindActive {
     text-decoration: none;
     border-radius: 0.5rem;
     padding: 0.5rem;

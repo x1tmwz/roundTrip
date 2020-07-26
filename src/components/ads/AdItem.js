@@ -17,8 +17,8 @@ const AdItem = ({
     const nights = nightsCalculation(dateCheckOut, dateCheckIn);
     return (
         <div className="adItem-Container">
-            <div>
-                <img src={image} alt="" className="image-regular" />
+            <div className="adItem-imageContainer">
+                <img src={image} alt=""/>
             </div>
             <div className="adItem-hotelInfoContainer">
                 <div className="adItem-hotelInfoContainer_textContainer">

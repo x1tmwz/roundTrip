@@ -2,68 +2,44 @@
     display: flex;
     flex-direction:column;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right:$s-xl;
-    padding-left: $s-xl;
-    padding-top: $s-m;
-    padding-bottom: $s-xl;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: $light-grey;
     margin-top: $s-m;
     border-bottom: medium solid black;
-    @media only screen and (max-width: $ipad-pro-breakpoint) {
-        width: 160rem;
-    }
-    @media only screen and (max-width: $desktop-breakpoint) {
-        width: 100%;
-        font-size:$font-m;
-        padding: $s-s;
-    }
-  
 
 }
 .joinToClubContainer-insideContainer{
     display: flex;
     flex-direction:row;
-    margin-right: 15rem;
-    margin-left: auto;
-    
-    @media only screen and (max-width: $desktop-breakpoint) {
-        margin-right: 1rem;
-        margin-left: 1rem;
-       
-    }
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
     
 
 }
 .joinToClubContainer-insideContainer input,button{
-    width: $xl-input;
-    height: $m-input-h;
+    width: 20%;
+    height: 30%;
     font-size: $font-xl;
     @media only screen and (max-width: $desktop-breakpoint) {
-        width: $s-input;
-        height: $s-input-h;
-        font-size: $font-m;
        
+        font-size:$font-m;
+        
     }
+
+   
   
 }
 .joinToClubContainer h3{
     color: $light-blue;
     font-size: $font-xl;
-    margin-right: 15rem;
-  
+    margin-right: 8%;
     @media only screen and (max-width: $desktop-breakpoint) {
-        width: 100%;
-        font-size:$font-m;
-        margin-right: 2rem;
+       
+        font-size:$font-l;
+        
     }
-
-}
-.joinToClub-marginItems{
-    margin-right: $s-xl;
-    @media only screen and (max-width: $desktop-breakpoint) {
-        margin-right: $s-s;
-    }
-
 }
