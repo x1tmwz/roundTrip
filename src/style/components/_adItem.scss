@@ -76,6 +76,7 @@
         width:100%;
     }
     @media only screen and (max-width: 800px) {
+        margin-top: 22%;
         font-size: $font-m;
     }
     @media only screen and (max-width: $desktop-breakpoint) { 
@@ -97,41 +98,34 @@
     border-radius: 3px;
     padding-bottom: 1%;
     padding-top: 1%;
-    @media only screen and (max-width: $desktop-breakpoint) { 
-        // padding-bottom: 5px;
-        
-    }
- 
 }
 .adItem-priceContainer-textContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    // margin-bottom: 40%;
-   
-    @media only screen and (max-width: 800px) {
-        // margin-bottom: 20%;
-        font-size: $font-l;
-    }
-    @media only screen and (max-width: $desktop-breakpoint) { 
-        font-size: $font-m;
-        // margin-bottom:9%;
-        
-    }
+  
 
 }
 .adItem-priceContainer-textContainer h1{
-    margin-bottom: 0; 
+    font-size: 4rem;
+    @media only screen and (max-width: 1600px) {
+        font-size: 3.5rem;
+    }
+    @media only screen and (max-width: $desktop-breakpoint) { 
+        font-size: 2rem;
+    }
 }
 .adItem-priceContainer-textContainer span{
     font-size: $font-xl;
     align-self:center;
-    @media only screen and (max-width: 800px) {
-        font-size: $font-l;
+    @media only screen and (max-width: 1600px) {
+        font-size: $font-xl;
+    }
+    @media only screen and (max-width: 900px) {
+        font-size: $font-xl;
     }
     @media only screen and (max-width: $desktop-breakpoint) { 
         font-size: $font-m;
-        
     }
 }
 .adItem-priceContainer button{
@@ -139,17 +133,15 @@
     width: 80%;
     height: 3rem;
     margin-top: 21%;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 2000px) {
         margin-top: 26%;
-        font-size: $font-m;
+        font-size: $font-m+0.5rem;
     }
     @media only screen and (max-width: $desktop-breakpoint) {
-        margin-top: 20%;
+        margin-top: 57%;
         font-size: $font-m;
     }
-    @media only screen and (max-width: 300px) {
-        font-size: $font-s;
-    }
+   
    
     
 
